@@ -9,5 +9,5 @@ mongoose.connect(CONNECTION,{
 }).then(()=>{
     console.log("connected");
 }).catch((err)=>{
-    console.log(`{err} Did not connected`);
+    console.log(`${err} Did not connected`);
 })
